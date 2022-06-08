@@ -16,14 +16,14 @@ kotlin {
 }
 
 dependencies {
-  api("org.jetbrains:kotlin-react:_")
-  api("org.jetbrains:kotlin-react-dom:_")
+  api("org.jetbrains.kotlin-wrappers:kotlin-react:_")
+  api("org.jetbrains.kotlin-wrappers:kotlin-react-dom:_")
   api("org.jetbrains:kotlin-styled:_")
-  api(npm("@chakra-ui/react", "1.2.1"))
-  api(npm("@chakra-ui/icons", "1.0.4"))
-  api(npm("@emotion/react", "11.1.4"))
-  api(npm("@emotion/styled", "11.0.0"))
-  api(npm("framer-motion", "3.3.0"))
+  api(npm("@chakra-ui/react", "2.2.1"))
+  api(npm("@chakra-ui/icons", "3.0.2"))
+  api(npm("@emotion/react", "19.0.1"))
+  api(npm("@emotion/styled", "11.8.1"))
+  api(npm("framer-motion", "6.3.11"))
 
 //  testImplementation("io.kotest:kotest-framework-engine:_")
 //  testImplementation("io.kotest:kotest-assertions-core:_")
