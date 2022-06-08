@@ -20,7 +20,7 @@ dependencies {
   api("org.jetbrains.kotlin-wrappers:kotlin-react-dom:_")
   api("org.jetbrains:kotlin-styled:_")
   api(npm("@chakra-ui/react", "2.2.1"))
-  api(npm("@chakra-ui/icons", "3.0.2"))
+  api(npm("@chakra-ui/icons", "2.0.2"))
   api(npm("@emotion/react", "11.9.0"))
   api(npm("@emotion/styled", "11.8.1"))
   api(npm("framer-motion", "6.3.11"))
